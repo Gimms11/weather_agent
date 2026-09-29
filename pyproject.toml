@@ -1,0 +1,14 @@
+[project]
+name = "weather-agent"
+version = "0.1.0"
+description = "Weather conversational assistant agent using LangChain, LangGraph, and Google Weather"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langgraph>=0.2.0",
+    "python-dotenv>=1.0.0",
+    "skycast-google>=0.1.0",
+]
